@@ -1,16 +1,41 @@
-# React + Vite
+# 🍕 Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Live Demo: [https://mohammad-2012.github.io/fast-react-pizza](https://mohammad-2012.github.io/fast-react-pizza)
 
-Currently, two official plugins are available:
+## 📖 About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Fast React Pizza** is a modern food ordering web application that allows users to:
 
-## React Compiler
+- 🍕 **Customize their pizza** (quantity)
+- 📝 **Place orders** with name, phone number, and address
+- 🧾 **Get a unique order ID** after successful order placement
+- 📍 **Track delivery status** using the order ID
+- 🛒 **Manage cart** (add/remove items)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Built with modern React patterns including Redux for state management and React Router for navigation.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- **React 19** - UI Library
+- **Redux Toolkit** - State Management
+- **React Router DOM v6** - Routing & Navigation
+- **Vite** - Build Tool
+- **TailwindCSS** - Styling
+- **Gh-Pages** - Deployment
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🏠 **Home Page** | Welcome screen with call-to-action |
+| 📋 **Menu Page** | Browse available pizzas |
+| 🛒 **Shopping Cart** | Add/remove items, update quantities |
+| 🆔 **Unique Order ID** | Auto-generated receipt number |
+| 🚚 **Order Tracking** | Check delivery status using order ID |
+| ⚡ **Priority Order** | Pay extra for faster delivery |
+| ✅ **Form Validation** | User input validation |
+| 🔄 **Real-time Updates** | Cart and order state management |
